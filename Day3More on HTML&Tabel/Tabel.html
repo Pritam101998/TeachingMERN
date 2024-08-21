@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabel</title>
+    <style>
+      th,
+      td,
+      hr {
+        border: red 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabel --</h1>
+    <table
+      id="tabel"
+      style="
+        border: rgb(238, 221, 221) 2px solid;
+        color: rgb(219, 22, 209);
+        border-collapse: collapse;
+      "
+    >
+      <colgroup>
+        <col style="background-color: blanchedalmond" />
+        <col span="2" style="background-color: rgb(162, 224, 241)" />
+      </colgroup>
+      <tr>
+        <th style="width: 50%">Name</th>
+        <th style="width: 25%">Age</th>
+        <th style="width: 25%">Class</th>
+      </tr>
+      <tr>
+        <td>Saheli</td>
+        <td rowspan="2">19</td>
+        <td rowspan="3">2nd year</td>
+      </tr>
+      <tr>
+        <td>swastika</td>
+
+        <!-- <td>2nd year</td> -->
+      </tr>
+      <tr>
+        <td>Pritam</td>
+        <td>26</td>
+        <!-- <td>2nd year</td> -->
+      </tr>
+    </table>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+    <table id="tabel">
+      <tr>
+        <th>Name</th>
+        <td>Saheli</td>
+        <td>Swastika</td>
+        <td>Pritam</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td colspan="2">19</td>
+        <!-- <td>19</td> -->
+        <td>26</td>
+      </tr>
+      <tr>
+        <th>Class</th>
+        <td colspan="3">2nd year</td>
+        <!-- <td>2nd year</td>
+        <td>2nd year</td> -->
+      </tr>
+    </table>
+  </body>
+</html>
