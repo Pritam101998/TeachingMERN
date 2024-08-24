@@ -39,3 +39,4 @@ to use an alt attribute for images
 https://developer.mozilla.org/en-US/
 h1 -mdn --search
 https://www.w3schools.com/html/default.asp
+https://picsum.photos/
