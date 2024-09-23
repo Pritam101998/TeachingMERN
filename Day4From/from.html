@@ -6,7 +6,7 @@
     <title>form</title>
   </head>
   <body>
-    <form>
+    <form  onclick="SUF()">
         <fieldset>
             <legend> D/W FORM TYPE:</legend>
         <label for="text" >Name:</label>
@@ -24,15 +24,16 @@
      </select><br>
      <textarea rows="20px" cols="20px"> </textarea><br>
 
-        <button type="submit" onclick="SUF()">submit</button>
-    
+        <button type="submit">submit</button>
+        <p class="para"></p>
     </fieldset>
         </form>
-<p class="para"></p>
+
     </form>
     <script>
         function SUF(){
-            alert("SUBMITED")
+            document.getElementsByClassName("para").innerHTML="Submitted Successfully";
+
             
         }
     </script>
