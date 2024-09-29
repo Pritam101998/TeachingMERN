@@ -1,0 +1,53 @@
+* {
+  background-color: rgb(204, 228, 243);
+}
+/* class selector */
+.X1 {
+  color: red;
+}
+/* id selector */
+#para1 {
+  background-color: bisque;
+}
+/* tag.classname /#idname */
+p.X2 {
+  border: 2px solid rgb(226, 249, 192);
+}
+.xx1.xx2.xx3 {
+  font-size: xx-large;
+}
+/* div p {
+  font-weight: 700;
+} */
+#uniq .class {
+  font-weight: 700;
+}
+/* tag selector */
+/* ul {
+  background-color: burlywood;
+} */
+div + span {
+  background-color: rgb(150, 150, 237);
+}
+div > span {
+  background-color: rgb(172, 240, 194);
+}
+footer ~ ul {
+  background-color: blueviolet;
+}
+a[href] {
+  color: rgb(238, 9, 9);
+}
+.ol:hover {
+  cursor: help;
+  background-color: blue;
+  font-size: xx-large;
+}
+li ul:nth-child(odd) {
+  background-color: rgb(14, 225, 240);
+}
+
+div,
+p {
+  font-size: small;
+}
